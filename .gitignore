@@ -1,0 +1,18 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local database (optional – you may want to keep it if you have sample data, but better to exclude)
+data/*.db
+
+# Streamlit logs
+*.log
+
+# IDE folders
+.vscode/
+.idea/
