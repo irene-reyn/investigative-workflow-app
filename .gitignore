@@ -1,4 +1,4 @@
-# Python virtual environment
+# Python virtual environments
 .venv/
 venv/
 env/
@@ -7,12 +7,13 @@ env/
 __pycache__/
 *.pyc
 
-# Local database (optional – you may want to keep it if you have sample data, but better to exclude)
-data/*.db
-
 # Streamlit logs
 *.log
 
 # IDE folders
 .vscode/
 .idea/
+
+# Local backups
+data/*_backup_*.db
+models/*_backup_*.joblib
